@@ -1,0 +1,68 @@
+body {
+  background-color: seashell;
+}
+.data-nav {
+  margin-top: 20px;
+}
+.data-nav a:hover {
+  text-decoration: none;
+}
+#title, #description, #legendSection {
+  font-family: 'Montserrat', sans-serif;
+}
+#legendSection {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+footer {
+  float: right;
+  margin-top: 20px;
+  font-size: 10px;
+}
+svg {
+  background-color: white;
+  opacity: 1;
+}
+.legend {
+  margin-top: -15px;
+  font-size: 13px;
+}
+rect {
+  opacity: 1;
+  stroke: white;
+}
+foreignObject {
+  padding: 2px 4px 2px 4px;
+  color: white;   /* text color inside map */
+  text-align: left;
+}
+foreignObject:hover {
+  font-size: 10px;
+  font-style: italic;
+  background-color: maroon;
+  opacity: 0.7;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: left;
+  padding: 0px 8px;
+  font-size: 12px;
+  color: black;
+  background: beige;
+  box-shadow: 0px 0px 2px;
+  border-radius: 3px;
+  pointer-events: none;
+  font-family: none;
+}
+.btn {
+  height: 50px;
+  width: 70px;
+  border-radius: 15%;
+}
+i {
+  font-size: 36px;
+}

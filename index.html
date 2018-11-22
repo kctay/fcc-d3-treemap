@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3 Treemap</title>
+
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:500' rel='stylesheet' type='text/css'>
+
+
+  <div class="container-fluid text-center">
+    <header>
+      <div class="data-nav">
+        <a href="?data=kickstarter" class="btn btn-primary">
+          <i class='fab fa-kickstarter'></i>
+        </a>
+        <a href="?data=movies" class="btn btn-success">
+          <i class='fas fa-film'></i>
+        </a>
+        <a href="?data=videogames" class="btn btn-warning">
+          <i class='fas fa-gamepad'></i>
+        </a>
+      </div>
+      <br>
+      <div>
+        <h4 id="title"></h4>
+        <h6 id="description"></h6>
+      </div>
+    </header>
+    <section>
+      <div id="treemap"></div>
+    </section>
+    <section id="legendSection">
+      <p>Legend</p>
+      <div class="legend"></div>
+    </section>
+    <footer>
+      <p>Kickstarter pledges, movie sales, video game sales datasets courtesy from freeCodeCamp</p>
+    </footer>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js'></script>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
